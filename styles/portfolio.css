@@ -46,6 +46,31 @@ nav ul li a{
     font-size: 20px;
     
 }
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* banner-style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+font-weight: 600px;
+font-size: 45px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-profile-pic{
+    width: 580;
+}
 /* font color */
 .dark-2{
     color: #474747;
